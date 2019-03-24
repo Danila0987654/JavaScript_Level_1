@@ -1,0 +1,51 @@
+<!DOCTYPE htmll>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/cart.css">
+	<title>Корзина</title>
+</head>
+<body>
+	<div id="wrapper">
+    	<div class="item_box">
+        	<h3 class="item_title">Samsung Galaxy S10</h3>
+            <p class="product_img">
+                <img src="img/Samsung_Galaxy_S10.jpg">
+            </p>
+            <p>Цена: <span class="item_price">76 990 </span>руб.</p>
+            <button class="add_item" data-id="1">
+                <img class="buy" src="img/add_cart.png">
+            </button>
+    	</div>
+    	<div class="item_box">
+        	<h3 class="item_title">Honor 10 Lite 32GB</h3>
+            <p class="product_img"><img src="img/Honor_10_Lite.jpeg">
+            </p>
+        	<p>Цена: <span class="item_price">14 990 </span>руб.</p>
+        	<button class="add_item" data-id="2"><img class="buy" src="img/add_cart.png"></button>
+    	</div>
+    	<div class="item_box">
+            <h3 class="item_title">Apple iPhone XR 256GB</h3>
+            <p class="product_img"><img src="img/Apple_iPhone_XR.jpeg">
+            </p>
+            <p>Цена: <span class="item_price">69 990 </span>руб.</p>
+            <button class="add_item" data-id="3">
+                <img class="buy" src="img/add_cart.png">
+            </button>
+        </div>
+        <div class="item_box">
+            <h3 class="item_title">Samsung Galaxy A6</h3>
+            <p class="product_img"><img src="img/SamsungGalaxy A6.jpeg">
+            </p>
+            <p>Цена: <span class="item_price">13 990 </span>руб.</p>
+            <button class="add_item" data-id="4">
+                <img class="buy" src="img/add_cart.png">
+            </button>
+        </div>
+    	<p><button id="checkout">Посмотреть корзину</button>
+    	<button id="clear_cart">Очистить корзину</button></p>
+    	<div id="cart_content"></div>
+	</div>
+	<script src="js/cart.js"></script>
+</body>
+</html>
